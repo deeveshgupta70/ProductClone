@@ -568,6 +568,16 @@ margin-left: 10px;
     background-color: #cdd8d8;
     padding: 20px;
 }
+/* Offfer */
+
+.offer{
+    margin-left: 50px;
+}
+
+.offer ul{
+
+    list-style: none;
+}
 
 
 
@@ -1092,5 +1102,5 @@ hr{
 }
 
 .increase{
-    transform: scale(1.5,1.5);
+    transform: scale(2,1.5);
 }

@@ -55,10 +55,10 @@ const Item = () => {
             <hr/>
             <div className="middle-text-content">
                 <p>
-                    List Price:	$129.99 
+                    List Price:	₹1229.99 
                 </p>
                 <p>
-                    Price: <span className="red-big"> $62.99 </span> + No Import Fees Deposit & $14.49 Shipping to
+                    Price: <span className="red-big"> ₹624.99 </span> + No Import Fees Deposit & ₹14.49 Shipping to
                 </p>
                 <p>
                     India <span>Details</span>
@@ -162,7 +162,7 @@ const Item = () => {
                 <span>Compare with similar items</span> 
              </div>   
              <div className="spaceing">
-                 <span >New (6) from <span className="red-normal">$47.99</span></span>   
+                 <span >New (6) from <span className="red-normal">₹47.99</span></span>   
              </div>
 
              <hr/>
@@ -177,7 +177,7 @@ const Item = () => {
                         Van Heusen Men's Regular Fit Polo Shirt
                         </span>
                         <span className="red-normal image-size">
-                            $33.99
+                        ₹33.99
                             <img src="./images/prime.png" alt=""/>
                         </span>
                         <div className=" star-row">
@@ -197,9 +197,9 @@ const Item = () => {
             </div>
             <div className="right-fill">
                 <div id="right-upper-container">
-                        <p><span className="red-big">$47.99</span><br/>
+                        <p><span className="red-big">₹477.99</span><br/>
                             + No Import Fees Deposit &
-                            $14.51 Shipping to Israel
+                            ₹141.51 Shipping to Israel
                         </p>
                         <span>Details</span>
                         <i className="arrow2 down"></i>
@@ -256,7 +256,7 @@ const Item = () => {
                             </div>
                             <div>
                                 <span>Van Heusen Athleisure Men Polo T-Shirt ..</span>
-                                <p style={{display: "inline"}}><span className="red-normal">$9.99</span> </p>
+                                <p style={{display: "inline"}}><span className="red-normal">₹999.99</span> </p>
                             </div>
                         </div>
                         <div className="spaceing flex">
@@ -278,7 +278,7 @@ const Item = () => {
                         </button>
                 </div>
                 <div id="right-middle-container">
-                    <p>New (2) from <span className="red-normal">$47.99</span> Free Delivery on first order</p>
+                    <p>New (2) from <span className="red-normal">₹547.99</span> Free Delivery on first order</p>
                     <i className="arrow3 right"></i>
                 </div>
 
@@ -294,8 +294,7 @@ const Item = () => {
                     </div>
                     <div className="right-down-content">
                         <p>
-                            USB 3.0 Micro Cable,ITANDIA
-                            3.3ft USB 3.0 A to Micro B...
+                            ₹779.00 <br></br> Sold By : MY CHOICE ECOM
                         </p>
                         <div className="star-row">
                             <i className="fas fa-star"></i>
@@ -305,7 +304,7 @@ const Item = () => {
                             <i className="fas fa-star"></i>
                             <span className="small-text">4,162</span>
                         </div>
-                        <span className="font-sm-gray" >$6.99</span>
+                        <span className="font-sm-gray" >₹666.99</span>
                         <img src="./images/prime.png" alt=""/>
                     </div>
 
@@ -331,7 +330,7 @@ const Item = () => {
                         <img src={require('./images/pic4.jpg')} alt=""/>
                     </div>
                     <div className="right-chunk">
-                       <p className="font-sm-gray">Total price: <span className="red-big">$66.27</span></p>
+                       <p className="font-sm-gray">Total price: <span className="red-big">₹966.27</span></p>
                        <div className="spaceing btn2 orange">
                            
                                 <button >Add all three to Cart</button>
