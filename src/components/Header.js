@@ -82,11 +82,6 @@ const Header = () => {
                 <span className="border">Beauty & personal Care</span>
                 <span className="border">New Realease</span>
             </div>
-            <div>
-            <span className="border">
-                Prime
-            </span>  
-            </div>
         </nav>
         <nav id="navbar3">
             <span>Clothing & Accessories ›</span>

@@ -17,10 +17,6 @@ const Modal = ({show , onClose,imgVal}) => {
                 <img src = {require('./images/pic5.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)}  alt = ""/>
                 <img src = {require('./images/pic6.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)}  alt = ""/>
                 <img src = {require('./images/pic7.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)} alt = ""/>
-                <img src = {require('./images/pic9.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)} alt = ""/>
-                <img src = {require('./images/pic11.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)} alt = ""/>
-                <img src = {require('./images/pic12.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)} alt = ""/>
-                <img src = {require('./images/pic14.jpg')} className = "grid-image" onClick ={(e)=>setModalI(e.target.src)} alt = ""/>
 
 
             </div>
