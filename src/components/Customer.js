@@ -178,7 +178,6 @@ const Customer = () => {
         </div>
 
     </div>
-    <hr style={{width : '95vw', marginLeft :"20px"}}></hr>
     </>
   )
 }
