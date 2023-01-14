@@ -79,7 +79,6 @@ const Header = () => {
                 <span className="border">Coupons</span>
                 <span className="border">Fashion</span>
                 <span className="border">Electronics</span>
-                <span className="border">Beauty & personal Care</span>
                 <span className="border">New Realease</span>
             </div>
         </nav>
