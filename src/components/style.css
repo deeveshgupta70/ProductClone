@@ -1064,7 +1064,7 @@ hr{
 .image-grid{
 
     height: 200px;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
