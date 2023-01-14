@@ -76,11 +76,11 @@ const Customer = () => {
             <h2 style = {{marginBottom:"15px"}}>Top Reviews From India</h2>
 
             <div className='feedback'>
-                <div className='col1' style = {{display:"flex ", alignItems:"center" , }}>
+                <div style = {{display:"flex ", alignItems:"center" , }}>
                     <img src = {require('./images/unknown.jpg')} style = {{marginRight:"10px"}} alt = ""/>
                     <h4> viShalv</h4>
                 </div>
-                <div style = {{display:"flex ", alignItems:"center" , }}>
+                <div style = {{display:"flex ", alignItems:"center" }}>
                     <div className="star-row">
                         <i className="fas fa-star"/>
                         <i className="fas fa-star"></i>
@@ -88,14 +88,14 @@ const Customer = () => {
                         <i className="fas fa-star"></i>
                         <i className="fas fa-star"></i>
                     </div>
-                    <p> Good quality & fit. They screwed up logo colours.</p>
+                    <p style={{marginLeft : "5px"}}><span className='bold'> Good quality & fit. They screwed up logo colours.</span></p>
                 </div>
                 <p>Reviewed in India on 24 December 2022</p>
-                <p>Size: XL | Colour: Black | Verified Purchase</p>
-                <p>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
+                <p>Size: XL | Colour: Black | <span className='verified'>Verified Purchase</span></p>
+                <p className='feedback-desc'>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
 
-                <div style = {{display:"flex "}}> 
-                    <button> Helpful</button>
+                <div className='feedback-report'> 
+                    <button className='feedback-desc-button'> Helpful</button>
                     <p> | Report Abuse</p>
                 </div>
             </div>
@@ -113,38 +113,13 @@ const Customer = () => {
                         <i className="fas fa-star"></i>
                         <i className="fas fa-star"></i>
                     </div>
-                    <p> Good quality & fit. They screwed up logo colours.</p>
+                    <p style={{marginLeft : "5px"}}><span className='bold'> Good quality & fit. They screwed up logo colours.</span></p>
                 </div>
                 <p>Reviewed in India on 24 December 2022</p>
-                <p>Size: XL | Colour: Black | Verified Purchase</p>
-                <p>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
-                <div style = {{display:"flex "}}> 
-                    <button> Helpful</button>
-                    <p> | Report Abuse</p>
-                </div>
-
-            </div>
-
-            <div className='feedback'>
-                <div className='col1' style = {{display:"flex ", alignItems:"center" , }}>
-                    <img src = {require('./images/unknown.jpg')} style = {{marginRight:"10px"}} alt = ""/>
-                    <h4> viShalv</h4>
-                </div>
-                <div style = {{display:"flex ", alignItems:"center" , }}>
-                    <div className="star-row">
-                        <i className="fas fa-star"/>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <p> Good quality & fit. They screwed up logo colours.</p>
-                </div>
-                <p>Reviewed in India on 24 December 2022</p>
-                <p>Size: XL | Colour: Black | Verified Purchase</p>
-                <p>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
-                <div style = {{display:"flex "}}> 
-                    <button> Helpful</button>
+                <p>Size: XL | Colour: Black | <span className='verified'>Verified Purchase</span></p>
+                <p className='feedback-desc'>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
+                <div className='feedback-report'> 
+                    <button className='feedback-desc-button'> Helpful</button>
                     <p> | Report Abuse</p>
                 </div>
 
@@ -163,20 +138,47 @@ const Customer = () => {
                         <i className="fas fa-star"></i>
                         <i className="fas fa-star"></i>
                     </div>
-                    <p> Good quality & fit. They screwed up logo colours.</p>
+                    <p style={{marginLeft : "5px"}}><span className='bold'> Good quality & fit. They screwed up logo colours.</span></p>
                 </div>
                 <p>Reviewed in India on 24 December 2022</p>
-                <p>Size: XL | Colour: Black | Verified Purchase</p>
-                <p>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
+                <p>Size: XL | Colour: Black | <span className='verified'>Verified Purchase</span></p>
+                <p className='feedback-desc'>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
+                <div className='feedback-report'> 
+                    <button className='feedback-desc-button'> Helpful</button>
+                    <p> | Report Abuse</p>
+                </div>
 
-                <div style = {{display:"flex "}}> 
-                    <button> Helpful</button>
+            </div>
+
+            <div className='feedback'>
+                <div className='col1' style = {{display:"flex ", alignItems:"center" , }}>
+                    <img src = {require('./images/unknown.jpg')} style = {{marginRight:"10px"}} alt = ""/>
+                    <h4> viShalv</h4>
+                </div>
+                <div style = {{display:"flex ", alignItems:"center" , }}>
+                    <div className="star-row">
+                        <i className="fas fa-star"/>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                    </div>
+                    <p style={{marginLeft : "5px"}}><span className='bold'> Good quality & fit. They screwed up logo colours.</span></p>
+                </div>
+                <p>Reviewed in India on 24 December 2022</p>
+                <p>Size: XL | Colour: Black | <span className='verified'>Verified Purchase</span></p>
+                <p className='feedback-desc'>It's a great piece of garment from a popular brand. Quality of clothe and fit are as expected. However one buys such products for the brand it shows off... Where they have screwed up. The two colours in the Van Heusen logo (in this product) are biege and white. Looks hotch porch of shield and alphabets V-H. Doesn't look good. At all.</p>
+
+                <div className='feedback-report'> 
+                    <button className='feedback-desc-button'> Helpful</button>
                     <p> | Report Abuse</p>
                 </div>
             </div>
 
         </div>
+
     </div>
+    <hr style={{width : '95vw', marginLeft :"20px"}}></hr>
     </>
   )
 }

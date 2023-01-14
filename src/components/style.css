@@ -863,7 +863,10 @@ hr{
 .inpt input {
     border: none;
     height: 30px;
+}
 
+.inpt input:focus{
+    outline: none;
 }
 
 .inr{
@@ -917,7 +920,7 @@ hr{
 .customer{
 
     margin-left: 10px;
-    height: 150vh;
+    height: 160vh;
     display: flex;
     /* align-items: center; */
     justify-content: space-evenly;
@@ -997,4 +1000,97 @@ hr{
 .feedback{
     width: 69%;
     margin: 20px 0 20px 0;
+}
+
+.feedback .verified{
+    font-weight:bold;
+    color: rgb(108, 138, 9);
+}
+
+.feedback .feedback-desc{
+    margin: 5px 0 5px 0;
+    padding: 2px 0 2px 0;
+}
+
+.feedback-report{
+
+    display: flex;
+    align-items: center;
+}
+
+.feedback-desc-button{
+    height: 30px;
+    width: 80px;
+    padding: 5px;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/*  Modal CSS*/
+
+.modal{
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80vh;
+    width: 90vw;
+    background-color: whitesmoke ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.modal-left{
+    width: 20%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.image-grid{
+
+    height: 200px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.image-grid img{
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: space-between;
+    margin: 5px 2px;
+}
+
+.modal-right{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.modal-right img{
+
+    height: 600px;
+    overflow: hidden;
+}
+
+.modal-right-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+}
+
+.increase{
+    transform: scale(1.5,1.5);
 }

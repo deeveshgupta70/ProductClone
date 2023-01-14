@@ -66,7 +66,7 @@ const Header = () => {
         </nav>
         <nav id="navbar2">
             <div>
-                <span className="border"><i class="fa-solid fa-bars"></i>All</span>
+                <span className="border">All</span>
                 <span className="border">Amazon miniTV</span>
                 <span className="border">Best Sellers</span>
                 <span className="border">Mobiles</span>

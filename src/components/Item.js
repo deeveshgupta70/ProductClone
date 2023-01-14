@@ -1,10 +1,13 @@
 import React, {useState } from 'react'
+import Modal from './Modal';
 
 const Item = () => {
     let [val , setVal] = useState("");
+    let [show , setShow] = useState(false);
 
   return (
     <main>
+    <Modal show = {show} onClose = {()=> setShow(false)} imgVal = {val}/>
     <div id="ppd">
 
         <div className="left">
@@ -17,7 +20,7 @@ const Item = () => {
                  <li><img src={require('./images/pic6.jpg')} alt="" onMouseOver={(e)=>setVal(e.target.src)} className="border2 display-pic6"/></li>   
                  <li><img src={require('./images/pic7.jpg')} alt="" onMouseOver={(e)=>setVal(e.target.src)} className="border2 display-pic7"/></li>   
                 </ul>
-                <div className="big-picture">
+                <div className="big-picture" onClick={()=>setShow(true)}>
                     <img id="big-picture" src={(val !== ''? val : require('./images/pic1.jpg'))} alt="" className="img display-pic1"/>
                 </div>
             </div>
@@ -35,7 +38,7 @@ const Item = () => {
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
                 <i className="fas fa-star"></i>
-                <i className="arrow2 down"></i>
+                {/* <i className="arrow2 down"></i> */}
                 <span>
                     132,545 ratings 
                 </span>
