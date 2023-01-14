@@ -199,7 +199,7 @@ const Item = () => {
                 <div id="right-upper-container">
                         <p><span className="red-big">₹477.99</span><br/>
                             + No Import Fees Deposit &
-                            ₹141.51 Shipping to Israel
+                            ₹141.51 Shipping
                         </p>
                         <span>Details</span>
                         <i className="arrow2 down"></i>
